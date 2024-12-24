@@ -19,6 +19,7 @@ from langchain.prompts import (
     SystemMessagePromptTemplate
 )
 
+
 from typing import List, Any
 from utils import BaseLogger, extract_title_and_question
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
